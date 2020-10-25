@@ -1,0 +1,11 @@
+image: chn2guevara/ruby-just-the-docs:latest
+manifests:
+  - image: chn2guevara/ruby-just-the-docs:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: chn2guevara/ruby-just-the-docs:arm32v7
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
