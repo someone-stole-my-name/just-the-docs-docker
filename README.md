@@ -10,7 +10,7 @@ steps:
   - name: Build
     image: chn2guevara/just-the-docs
     commands:
-      - cp /Gemfile* .
-      - bundle exec jekyll build
+      - rm -rf Gemfile* && cp /Gemfile* .
+      - bundle && bundle exec jekyll build
 ...
 ```
