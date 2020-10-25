@@ -1,4 +1,4 @@
-FROM amd64/ruby:buster
+FROM ruby:buster
 
 WORKDIR /work
 
